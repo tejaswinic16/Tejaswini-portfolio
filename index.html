@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <title>Tejaswini C</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://kit.fontawesome.com/a22293b5e7.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1000">
+                <span>Tejaswini C</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"><a href="#header">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"><a href="#about">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"><a href="#Skills">Skills</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400"><a href="#projects">Projects</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"><a href="#contact">Contact</a></div>
+              </div>
+            <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            <i class="fa-solid fa-bars hamburg" onclick="openmenu()"></i>
+
+        </div>
+        <div class="dropdown">
+            <div class="links">
+        <a href="#header" onclick="closemenu()">Home</a>
+        <a href="#about" onclick="closemenu()">About</a>
+        <a href="#skills" onclick="closemenu()">Skills</a>
+        <a href="#projects" onclick="closemenu()">Projects</a>
+        <a href="#contact" onclick="closemenu()">Contact</a>
+         </div>
+         <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            <i class="fa-solid fa-xmark cancel" onclick="closemenu()"></i>
+        </div>
+    </nav>
+        <section id="header">
+            <div class="main-container">
+                <div class="image" data-aos="zoom-out-right" data-aos-duration="3000">
+                    <img src="TEJ.jpg" alt="" style="width: 450px; height: auto;">
+                </div>
+                
+                <div class="content" class="page-section">
+                    <h1 data-aos="fade-left" data-aos-duration="900" data-aos-delay="800">Hey I'm <span>Tejaswini C</span></h1>
+                    <div class="typewriter" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="900">I'm a <span></span></div>
+                    <p data-aos="flip-up" data-aos-duration="1000" data-aos-delay="1000">I'm Passionate about Cyber Security and exploring innovative solutions and staying ahead in the digital world </p>
+                    <div class="social-links" data-aos="flip-down" data-aos-duration="1000" data-aos-delay="1200">
+                        <a href="http://tejaswinigowdac1@gmail.com" target="_blank"><i class="fa-solid fa-envelopes-bulk"></i>
+                        <a href="https://github.com/tejaswinic16" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/tejaswini-c-36354a2b4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div id="about" class="page-section">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="teju.jpg" height="50%" width="auto">
+                     </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About me</h1>
+                        <p>My  name  is  Tejaswini C,  I  am  currently  perceiving  BE  degree  in  Computer Science Engineering with Cyber Security in M S Ramaiah Institute of Technology.
+                                I am passionate about exploring new things in cybersecurity and always exited to learn more.
+                                 My goal is to continuosly improve my skills and to innovative projects that make a positive impact.
+                            I possess strong technical skills in Programming languages like Java, C, C++, Python, R, Unix My experience spans beyond programming language to include Data Structures and Algorithms, Design and Analysis of Algorithms.  And in Web Development - HTML, CSS, JavaScript.  Also for designing in  UI/UX Using Figma,  Canva.  
+
+Beyond technical skills I can ensure Soft Skills like Problem-solving, Analytical Thinking, Attention to Detail and strong communication also public specking skills. I believe in the power of teamwork to drive success in any project. I had the privilege of gaining hands-on experience during Mobile app Development Intern at Ramaiah Institute of Technology where I honed problem-solving abilities.
+                        </p>
+                          <div class="tab-titles">
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                            <p class="tab-links active-link"  onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links"  onclick="opentab('certificate')">Certificate</p>
+                            
+                          </div>
+                          <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>M S Ramaiah Institute of Technology, Bengaluru</span><br>Bachelor of Engineering CSE-Cyber Security</li>
+                                <li><span>Cluny Convent PU college Bengaluru</span><br>PUC- Science Stream(PCMB)</li>
+                                <li><span>Mother Teresa High School</span><br>Pre-Schooling to 10th grade</li>
+                            </ul>
+                          </div>
+                          <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Programming languages</span><br>Java,C,C++,Python,Shell Programming</li>
+                                <li><span>Web Development</span><br>Web app Development</li>
+                                <li><span>DSA</span><br>and DAA</li>
+                                <li><span>cybersecurity Frameworks</span><br>Cryptography, cybersecurity Attack and Defence Staregies, Secure Coding in C and C++</li>
+                            </ul>
+                          </div>
+                          <div class="tab-contents active-tab" id="certificate">
+                            
+                            <ul>
+                                <li>
+                                     Cybersecurity Track - 
+                        <a href="https://drive.google.com/file/d/17wUmn7eZmnPgWAh7kmqvo4rWQQNWwp65/view?usp=drivesdk" target="_blank"><i class="fas fa-link"></i> Google Cloud Certificate</a>
+                        <a href="https://drive.google.com/file/d/1pKO1iMJFmHDkQnpiLD2obWXyoOug8uI0/view?usp=drivesdk" target="_blank"><i class="fas fa-link"></i> Infosys Springboard</a> 
+                    </li> 
+                             <li>
+                                 Cloud Computing -  
+                                <a href="https://drive.google.com/file/d/1FGDpdT7wilb7f_PQB6kfL6QgXSUdCSQW/view?usp=drivesdk" target="_blank"><i class="fas fa-link"></i> AWS Cloud Certificate</a> 
+                             </li>
+                             <li>
+                                Machine Learning Fundamentals - 
+                             <a href="https://drive.google.com/file/d/1pKO1iMJFmHDkQnpiLD2obWXyoOug8uI0/view?usp=drivesdk" target="_blank"><i class="fas fa-link"></i> Infosys Springboard</a> 
+                             </li>
+                                <li>
+                                    UI/UX Design - 
+                                <a href="https://drive.google.com/file/d/1pKO1iMJFmHDkQnpiLD2obWXyoOug8uI0/view?usp=drivesdk" target="_blank"><i class="fas fa-link"></i> Udemy </a>
+                             </li>  
+                            </ul>
+                          </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div id="Skills">
+            <div class="container">
+                <h1 class="sub-title">My Skills</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Cybersecurity</h2>
+                        <p>I focus on ethical hacking, security research, and learning about cybersecurity threats and defenses. I am developing my skills in identifying vulnerabilities, securing web applications, and understanding cyber threats.</p>
+                        <a href="#" class="learn-more" data-title="Cybersecurity" data-desc="
+                       - Practicing Penetration Testing
+                           Gaining hands-on experience in ethical hacking and security assessments..
+                       - Vulnerability Research & Bug Bounty Hunting.
+                       - CTF (Capture The Flag) Challenges 
+                        Solving cybersecurity challenges to improve my skills.">In Detail</Details></a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop"></i>
+                        <h2>Web Development</h2>
+                        <p>I build and experiment with web applications, focusing on both frontend and backend development. My goal is to create secure, functional, and well-optimized websites.
+                           It includes Full-Stack Web Development, Personal & Open-Source Project and Security-Focused Web Development
+                        </p>
+                        <a href="#" class="learn-more" data-title="Wed Development" data-desc="Full-Stack Web Development – Learning and working with frontend and backend technologies.
+                        Personal & Open-Source Projects – Developing websites and web apps to improve my skills.
+                        Security-Focused Web Development – Implementing best practices to make websites more secure.">In Detail</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store"></i>
+                        <h2>UI/UX Design</h2>
+                        <p>I focus on creating user-friendly interfaces that improve digital experiences. I enjoy designing layouts, wireframes, and prototypes to enhance usability.</p>
+                        <a href="#" class="learn-more" data-title="UI/UX Design" data-desc="Creating clean, modern, and interactive user interfaces.
+                        Prototyping – Building interactive prototypes using Figma.
+                        Ensuring my designs are user-friendly and accessible.">In detail</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Modal Popup -->
+        <div class="modal" id="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <h2 id="modal-title"></h2>
+                <p id="modal-description"></p>
+                <ul>
+                    <li>Solving cybersecurity challenges</li>
+                    <li>Web page development</li>
+                    <li>Prototyping</li>
+                </ul>
+            </div>
+        </div>
+        <div id="projects">
+            <div class="container">
+                <h1 class="sub-title">Projects</h1>
+                <div class="projects-list">
+                    <div class="projects">
+                        <img src="2.jpg">
+                        <div class="layer">
+                            <h3>Purple Bus - A Smart Bus Booking Application</h3>
+                            <p>Purple Bus is a user-friendly mobile application designed for seamless bus ticket booking. Developed using Flutter, it provides an intuitive UI/UX with essential features to enhance user experience.Tech Stack: Flutter, Dart</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="projects">
+                        <img src="3.jpg">
+                        <div class="layer">
+                            <h3>AI-Based Text Summarization Tool</h3>
+                            <p>Text summarization tool built using Python, Flask, and the T5 Transformer model. The tool takes in long-form text and generates a summary while preserving key information. It leverages Natural Language Processing techniques to make content more readable and efficient.</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="projects">
+                        <img src="4.jpg">
+                        <div class="layer">
+                            <h3>Recognizing English Grammar Using Predictive Parsing</h3>
+                            <p>Project focuses on recognizing English grammar using predictive parsing techniques. It uses spaCy for NLP and NLTK for syntactic analysis, enabling exploration of sentence, part-of-speech tagging, dependency parsing and entity recognition.</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div id="more-projects" class="projects-list hidden-projects">
+                    <div class="projects">
+                        <img src="1.jpg">
+                        <div class="layer">
+                            <h3>Cybersecurity Dashboard</h3>
+                            <p>A real-time cybersecurity monitoring dashboard that visualizes threats and vulnerabilities.</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="projects">
+                        <img src="1.jpg">
+                        <div class="layer">
+                            <h3>Web Application Security Analyzer</h3>
+                            <p>A tool that scans web applications for security vulnerabilities and provides detailed reports.</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="projects">
+                        <img src="1.jpg">
+                        <div class="layer">
+                            <h3>Web Application Security Analyzer</h3>
+                            <p>A tool that scans web applications for security vulnerabilities and provides detailed reports.</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a class="btn" onclick="toggleProjects()">See More</a>
+            </div>
+         </div>
+        
+         <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><a href="http://tejaswinigowdac1@mail.com" target="_blank"><i class="fa-solid fa-paper-plane"></i> tejaswinigowdac1@gmail.com </a></p>
+                        <div class="social-icons">
+                            <a href="https://github.com/tejaswinic16" target="_blank"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://discord.gg//5WcnjGCn" target="_blank"><i class="fa-brands fa-discord"></i></a>
+                            <a href="https://www.instagram.com/tejaswinigowda_c?igsh=Mm9zbzF3MmZyM2hw&utm_source=qr" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/tejaswini-c-36354a2b4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                             
+                        </div>
+                        <a href="TEJASWINI.C.pdf" open class="btn btn2"> CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your email" required>
+                            <textarea name="Message" rows="4" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({offset:0});
+        </script>
+        <script>
+            function hamburg(){
+                const navbar = document.querySelector(".dropdown")
+                navbar.style.transform = "translateY(0px)"
+            }
+            function cancel(){
+                const navbar = document.querySelector(".dropdown")
+                navbar.style.transform = "translateY(-500px)"
+            }
+        </script>
+        <!-- AOS JS -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+    
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+    
+        </script>
+        <script>
+            var sidemeu = document.getElementById("sidemenu");
+            function openmenu(){
+                sidemeu.style.right = "0";
+    
+            }
+            function closemenu(){
+                sidemeu.style.right = "-200px";
+                
+            }
+            </script>
+            <script>
+    function closemenu() {
+        document.querySelector('.dropdown').style.display = 'none';
+    }
+
+    function openmenu() {
+        document.querySelector('.dropdown').style.display = 'block';
+    }
+</script>
+
+            <script>
+               document.querySelectorAll(".learn-more").forEach(button => {
+    button.addEventListener("click", function (event) {
+        event.preventDefault();  // Prevent the page from jumping
+
+        // Get service details
+        const title = this.getAttribute("data-title");
+        const description = this.getAttribute("data-desc");
+
+        // Update modal content
+        document.getElementById("modal-title").innerText = title;
+        document.getElementById("modal-description").innerText = description;
+
+        // Show modal
+        document.getElementById("modal").style.display = "flex";
+    });
+});
+
+function closeModal() {
+    document.getElementById("modal").style.display = "none";
+}
+
+            </script>
+            <script>
+document.getElementById("seeMoreBtn").addEventListener("click", function(event) {
+    event.preventDefault(); // Prevent default link behavior
+
+    const newProjects = [
+        {
+            img: "project4.jpg",
+            title: "Cybersecurity Vulnerability Scanner",
+            description: "A cybersecurity tool that scans web applications for vulnerabilities using automated penetration testing techniques.",
+            link: "#"
+        },
+        {
+            img: "project5.jpg",
+            title: "E-commerce Website UI/UX Design",
+            description: "A fully responsive UI/UX design for an e-commerce platform, focusing on user experience and ease of navigation.",
+            link: "#"
+        },
+        {
+            img: "project6.jpg",
+            title: "Real-time Chat Application",
+            description: "A web-based chat application using WebSocket technology for real-time messaging and user authentication.",
+            link: "#"
+        }
+    ];
+
+    const projectsList = document.getElementById("projectsList");
+
+    newProjects.forEach(project => {
+        const projectDiv = document.createElement("div");
+        projectDiv.classList.add("projects");
+        projectDiv.innerHTML = `
+            <img src="${project.img}">
+            <div class="layer">
+                <h3>${project.title}</h3>
+                <p>${project.description}</p>
+                <a href="${project.link}"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+        `;
+        projectsList.appendChild(projectDiv);
+    });
+
+    document.getElementById("seeMoreBtn").style.display = "none"; // Hide button after adding projects
+});
+</script>
+<script>
+    function toggleProjects() {
+        var moreProjects = document.getElementById("more-projects");
+        var btn = document.querySelector(".btn");
+        if (moreProjects.style.display === "none" || moreProjects.style.display === "") {
+            moreProjects.style.display = "grid";
+            btn.textContent = "See Less";
+        } else {
+            moreProjects.style.display = "none";
+            btn.textContent = "See More";
+        }
+    }
+</script>
+<script>
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener("click", function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute("href")).scrollIntoView({
+            behavior: "smooth"
+        });
+    });
+});
+
+</script>
+<script>
+    let currentIndex = 0;
+    const sections = document.querySelectorAll(".nav-container");
+    
+    document.addEventListener("keydown", function(event) {
+        if (event.key === "PageDown") {
+            event.preventDefault();
+            if (currentIndex < sections.length - 1) {
+                currentIndex++;
+                sections[currentIndex].scrollIntoView({ behavior: "smooth" });
+            }
+        }
+    });
+</script>
+<script>
+  function openmenu() {
+      document.querySelector('.dropdown').classList.add('active');
+      document.querySelector('.hamburg').style.display = 'none';
+  }
+
+  function closemenu() {
+      document.querySelector('.dropdown').classList.remove('active');
+      document.querySelector('.hamburg').style.display = 'block';
+  }
+</script>
+
+    
+</body>
+</html>
